@@ -10,3 +10,10 @@ To name a few:
 7) Trees (BT, BST, AVL, BinaryHeap, Trie)
 8) Hashing
 9) Sorting Techniques (Bubble, Selection, Insertion, Bucket) 
+  a) Bubble sort
+  b) Selection sort
+  c) Insertion sort
+  d) Bucket sort
+  e) Merge sort
+  f) Quick sort
+  g) Heap sort
