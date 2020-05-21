@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Node">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../DSProgramming/Node/out/artifacts/Node_jar/Node.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
