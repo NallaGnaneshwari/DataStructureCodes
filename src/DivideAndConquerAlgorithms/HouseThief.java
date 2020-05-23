@@ -12,10 +12,10 @@ public class HouseThief {
             return 0;
         }
 
-        int stealCurrentHouse = HouseNetWorth[currentIndex]+maxMoney(HouseNetWorth,currentIndex+2);
-        int skipCurrentHouse = 0 + maxMoney(HouseNetWorth,currentIndex+1);
+        int stealCurrentHouse = HouseNetWorth[currentIndex]+maxMoney(HouseNetWorth,currentIndex+2);  //picking current house
+        int skipCurrentHouse = 0 + maxMoney(HouseNetWorth,currentIndex+1); //skipping current house
         return Math.max(stealCurrentHouse,skipCurrentHouse);
-    }
+    }//end of recursive method
 
     public static void main(String[] args) {
         HouseThief ht = new HouseThief();
@@ -23,7 +23,6 @@ public class HouseThief {
         System.out.println(ht.maxMoney(houseNetWorth));
         houseNetWorth = new int[]{20, 5, 1, 13, 6, 11, 40};
         System.out.println(ht.maxMoney(houseNetWorth));
-
     }
 
 }

@@ -12,7 +12,8 @@ public class FibonacciSeries {
         }
         else
             return calculateFibonacci(n-1)+calculateFibonacci(n-2);
-    }
+    }//end of recursive method
+
 
     public static void main(String[] args) {
         System.out.println("10th fibonacci element is:" + FibonacciSeries.calculateFibonacci(10));

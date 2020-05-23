@@ -14,7 +14,7 @@ public class NumberFactor {
             int subtract4 = waysToGetN(n - 4);
             return subtract1 + subtract3 + subtract4;
         }
-    }
+    }//end of recursive method
 
     public static void main(String[] args) {
         System.out.println("Ways to find 4: "+ NumberFactor.waysToGetN(4));
@@ -23,5 +23,5 @@ public class NumberFactor {
         System.out.println("Ways to find 7: "+ NumberFactor.waysToGetN(7));
         System.out.println("Ways to find 8: "+ NumberFactor.waysToGetN(8));
         System.out.println("Ways to find 9: "+ NumberFactor.waysToGetN(9));
-    }
+    }// end of main
 }
