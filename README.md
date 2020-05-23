@@ -17,3 +17,7 @@ To name a few:
   e) Merge sort
   f) Quick sort
   g) Heap sort
+10) Greedy Algorithm Problems
+  a) Activity selection problem
+  b) Coin change problem
+  c) Fractional Knapsack problem
