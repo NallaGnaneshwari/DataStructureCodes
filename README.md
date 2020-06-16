@@ -21,3 +21,5 @@ To name a few:
   a) Activity selection problem
   b) Coin change problem
   c) Fractional Knapsack problem
+11) Divide and Conquer Problems
+12) Dynamic Programming Problems
